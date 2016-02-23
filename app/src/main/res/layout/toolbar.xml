@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/my_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/Sytle8"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="start|left"
+        android:contentDescription="Veliologo" />
+
+    <TextView
+        android:id="@+id/veliotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Velio"
+        android:typeface="sans"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="end|right"/>
+
+
+
+</android.support.v7.widget.Toolbar>
